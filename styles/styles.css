@@ -1,0 +1,24 @@
+.year-week {
+  text-align: right;
+}
+
+body {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+h1 {
+text-align: center;
+}
+
+.week {
+  border-style: dashed;
+}
+
+.weekday {
+
+}
+
+.sad-face {
+  width: 13%;
+}
