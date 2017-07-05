@@ -1,14 +1,14 @@
-.year-week {
-  text-align: right;
-}
-
-body {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
 
 h1 {
 text-align: center;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+.day-title {
+  margin-bottom: 0.3em;
 }
 
 .week {
@@ -16,9 +16,34 @@ text-align: center;
 }
 
 .weekday {
-
+border: 1px solid black;
+margin: 1em;
+min-height: 10em;
+padding: 0.5em;
 }
 
 .sad-face {
-  width: 13%;
+  width: 6%;
+}
+.sad-face-press {
+  width: 10%;
+}
+
+.container {
+  max-width: 90%;
+  width: 100%;
+  background-color: grey;
+}
+
+.three-days .weekday {
+  margin-right: 0px;
+}
+.four-days .weekday {
+  margin-left: 0px;
+}
+
+.smiley-holder {
+  min-height: 3em;
+  border-bottom: 1px solid black;
+  /*background-color: pink;*/
 }
